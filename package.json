@@ -1,6 +1,6 @@
 {
   "name": "beecode-otp-ui",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "OTP Frontend UI",
   "author": "beecodeguy",
   "main": "./dist/index.js",
@@ -53,5 +53,6 @@
     "nextjs",
     "otp",
     "headlessUI"
-  ]
+  ],
+  "license": "MIT"
 }
