@@ -1,18 +1,24 @@
 {
   "name": "beecode-otp-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OTP Frontend UI",
   "author": "beecodeguy",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "repository": {
+    "type": "git",
     "url": "https://github.com/beecodeguy/otp-ui"
   },
+  "bugs": {
+    "url": "https://github.com/beecodeguy/otp-ui/issues"
+  },
   "scripts": {
-    "build": "tsup"
+    "build": "rollup -c"
   },
   "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
     "@swc/core": "^1.4.2",
     "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.19",
@@ -26,7 +32,6 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
-    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
