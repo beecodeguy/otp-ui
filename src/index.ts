@@ -1,0 +1,1 @@
+export {default as OTPUI} from './components/otp-ui'
